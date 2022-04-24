@@ -1,0 +1,35 @@
+.quadrado {
+    border: 3px solid black;
+    min-height: 120px;
+    &.col1 {
+        border-top: none;
+        border-left: none;
+    }
+    &.col2 {
+        border-top: none;
+    }
+    &.col3 {
+        border-top: none;
+        border-right: none;
+    }
+    &.col4 {
+        border-left: none;
+    }
+    &.col6 {
+        border-right: none;
+    }
+    &.col7 {
+        border-left: none;
+        border-bottom: none;
+    }
+    &.col8 {
+        border-bottom: none;
+    }
+    &.col9 {
+        border-bottom: none;
+        border-right: none;
+    }
+    &.cursorPointer {
+        cursor: pointer;
+    }
+}
