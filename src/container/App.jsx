@@ -8,7 +8,7 @@ const App = () => {
         <BrowserRouter>
             <Routes>
                 <Route element={<TicTacToe />} path="/" />
-                <Route element={<TicTacToe handleContent={handleContent} />} path="/tictactoe" />
+                <Route element={<TicTacToe />} path="/tictactoe" />
                 <Route element={<Navigate replace to="/" />} path="*" />
             </Routes>
             <Footer />
