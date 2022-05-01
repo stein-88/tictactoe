@@ -5,7 +5,21 @@
     ],
     "plugins": [
         [
-            "module-resolver"
+            "module-resolver",
+            {
+                "root": [
+                    "./src"
+                ],
+                "alias": {
+                    "@constants": "./src/constants",
+                    "@components": "./src/components",
+                    "@images": "./src/statics/images",
+                    "@generics": "./src/components/Generics",
+                    "@actions": "./src/store/actions",
+                    "@utils": "./src/utils",
+                    "@container": "./src/container"
+                }
+            }
         ],
         "react-hot-loader/babel",
         [

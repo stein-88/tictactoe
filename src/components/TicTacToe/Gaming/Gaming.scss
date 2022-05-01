@@ -1,35 +1,62 @@
-.quadrado {
-    border: 3px solid black;
-    min-height: 120px;
-    &.col1 {
-        border-top: none;
-        border-left: none;
-    }
-    &.col2 {
-        border-top: none;
-    }
-    &.col3 {
-        border-top: none;
-        border-right: none;
-    }
-    &.col4 {
-        border-left: none;
-    }
-    &.col6 {
-        border-right: none;
-    }
-    &.col7 {
-        border-left: none;
-        border-bottom: none;
-    }
-    &.col8 {
-        border-bottom: none;
-    }
-    &.col9 {
-        border-bottom: none;
-        border-right: none;
-    }
-    &.cursorPointer {
-        cursor: pointer;
-    }
+.textPic {
+  min-height: 455px;
+}
+
+.clickText {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  padding: 10px;
+}
+
+.tictok {
+  height: 150px;
+  width: 150px;
+  float: left;
+  border: 3px solid white;
+  cursor: pointer;
+
+  &.box0col0 {
+    border-left: none;
+    border-top: none;
+  }
+
+  &.box0col1 {
+    border-top: none;
+  }
+
+  &.box0col2 {
+    border-right: none;
+    border-top: none;
+  }
+
+  &.box1col0 {
+    border-left: none;
+  }
+
+  &.box1col1 {
+    border: 3px solid white;
+  }
+
+  &.box1col2 {
+    border-right: none;
+  }
+
+  &.box2col0 {
+    border-left: none;
+    border-bottom: none;
+  }
+
+  &.box2col1 {
+    border-bottom: none;
+  }
+
+  &.box2col2 {
+    border-right: none;
+    border-bottom: none;
+  }
+
+  &.noCursor {
+    cursor: default;
+  }
 }

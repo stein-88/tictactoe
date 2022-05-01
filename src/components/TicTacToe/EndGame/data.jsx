@@ -1,7 +1,6 @@
 const schemaendgame = {
-    atie: 'A tie',
-    thewinner: 'The winner is ',
-    playagain: 'Play again'
-}
+  thewinner: 'The winner is ',
+  playagain: 'Play again',
+};
 
-export default schemaendgame
+export default schemaendgame;

@@ -1,14 +1,15 @@
 .btnstyle {
-    border: 3px solid rgba(0, 0, 255, 0.323);
-    color: white;
-    padding: 4px 5px;
-    border-radius: 8px;
-    display: inline-block;
-    cursor: pointer;
-    background-color: #007bff;
-    margin-right: 7px;
-    &.btnoff {
-        background-color: lighten($color: black, $amount: 40) !important;
-        cursor: none !important;
-    }
+  border: 3px solid #0000ff52;
+  color: white;
+  padding: 4px 5px;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  background-color: #007bff;
+  margin-right: 7px;
+
+  &.btnoff {
+    background-color: lighten($color: black, $amount: 40) !important;
+    cursor: none !important;
+  }
 }
