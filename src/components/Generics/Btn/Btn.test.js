@@ -42,6 +42,6 @@ describe('Test on Btn Component', () => {
     test('Should have an ID', () => {
         const compBtn = renderer.create(<Btn text="botaoo" id="tecladoGamerTeclaBaixa" onClick={() => null} />)
         const expectResult = compBtn.root.findAllByProps({ ['data-test']: "tecladoGamerTeclaBaixa" })
-        expect(expectResult).toHaveLength(1)
+        expect(expectResult).toHaveLength(10)
     })
 })
