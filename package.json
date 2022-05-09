@@ -15,6 +15,12 @@
         "test": "jest --env=jsdom --config jestconfig.json",
         "testcover": "jest --env=jsdom --config jestconfig.json --coverage"
     },
+    "lint-staged": {
+        "src/**/*.{scss}": [
+            "yarn checkstyle",
+            "git add"
+        ]
+    },
     "dependencies": {
         "axios": "^0.24.0",
         "bootstrap": "4.6.0",
