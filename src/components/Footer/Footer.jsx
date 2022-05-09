@@ -3,8 +3,8 @@ import schema from './data'
 import s from './Footer.scss'
 
 const Footer = () => {
-  let  { text } = schema
-  //fdusahfojisdam
+  let { text } = schema
+  // fdusahfojisdam
   return (
     <footer>
       <section id="footer" className={`py-5 ${s.bgblack}`}>
