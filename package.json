@@ -16,11 +16,11 @@
         "testcover": "jest --env=jsdom --config jestconfig.json --coverage"
     },
     "lint-staged": {
-        "src/**/*.{jsx}": [
+        "src/**/*.jsx": [
             "yarn checkjs",
             "git add"
         ],
-        "src/**/*.{scss}": [
+        "src/**/*.scss": [
             "yarn checkstyle",
             "git add"
         ]
