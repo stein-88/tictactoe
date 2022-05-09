@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on Gaming Component Should render with full props 1`] = `
+<section
+  className="w-100"
+>
+  <section
+    className="w-100 text-right pb-3"
+  >
+    <span
+      aria-hidden="true"
+      className="btnstyle"
+      onClick={[Function]}
+    >
+      Reset
+    </span>
+  </section>
+  <section
+    className="w-100"
+  >
+    <div
+      className="col-lg-9 col-12 m-auto"
+    >
+      <div
+        className="row m-0"
+      >
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box0col0"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box0col1"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box0col2"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-9 col-12 m-auto"
+    >
+      <div
+        className="row m-0"
+      >
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box1col0"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box1col1"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box1col2"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-lg-9 col-12 m-auto"
+    >
+      <div
+        className="row m-0"
+      >
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box2col0"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box2col1"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+        <div
+          aria-hidden="true"
+          className="col clickText  tictok box2col2"
+          data-testrefer=""
+          onClick={[Function]}
+        >
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section
+    className="w-100 text-right pt-3"
+  >
+    <p
+      className="h3"
+    >
+      Turn of the Player  X
+    </p>
+  </section>
+</section>
+`;

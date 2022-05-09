@@ -1,0 +1,37 @@
+{
+    "moduleNameMapper": {
+        "\\.(png|ico|svg|jpg|jpeg|gif|pdf|mp4|woff|woff2|eot|ttf|otf)$": "<rootDir>/config/jest.filemock.js",
+        "\\.(css|sass|scss)$": "identity-obj-proxy"
+    },
+    "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+    },
+    "verbose": true,
+    "collectCoverageFrom": [
+        "src/**/*.jsx",
+        "!src/index.jsx"
+    ],
+    "coverageReporters": [
+        "lcov",
+        "json",
+        "cobertura"
+    ],
+    "reporters": [
+        "default",
+        [
+            "jest-trx-results-processor",
+            {
+                "outputFile": ".testresults/resulting.trx",
+                "defaultUserName": "Wanderson Santos"
+            }
+        ]
+    ],
+    "coverageThreshold": {
+        "global": {
+            "branches": 0,
+            "functions": 0,
+            "lines": 0,
+            "statements": 0
+        }
+    }
+}

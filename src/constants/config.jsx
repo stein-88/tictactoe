@@ -16,4 +16,4 @@ export const WINNING_COMBINATIONS = [
   [2, 4, 6],
 ];
 
-export const PLAYERS = ['X', 'O'];
+export const PLAYERS = ['X', 'O']

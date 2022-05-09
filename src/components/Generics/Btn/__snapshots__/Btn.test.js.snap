@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on Btn Component Should render with text and onClick 1`] = `
+<span
+  aria-hidden="true"
+  className="btnstyle"
+  onClick={[Function]}
+>
+  botaoo
+</span>
+`;

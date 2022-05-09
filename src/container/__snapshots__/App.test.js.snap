@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on App container Renderized with no props 1`] = `
+Array [
+  <section
+    className="w-100 bgNewlikeblue"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-lg-8 col-12 m-auto"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-6 col-12"
+            >
+              <p
+                className="h1 pb-5"
+              >
+                Tic Tac Toe
+              </p>
+              <p
+                className="h3 py-3"
+                data-test="players"
+              >
+                Player One: 
+                <strong
+                  className="text-danger"
+                >
+                  X
+                </strong>
+              </p>
+              <p
+                className="h3 "
+                data-test="players"
+              >
+                Player Two: 
+                <strong
+                  className="text-danger"
+                >
+                  O
+                </strong>
+              </p>
+            </div>
+            <div
+              className="col-lg-6 col-12"
+            >
+              <section
+                className="w-100 text-center"
+              >
+                <section
+                  className="w-100 px-5 mb-3"
+                >
+                  <img
+                    alt="Tic Tac Toe"
+                    className="w-100 img-fluid rounded"
+                    src="test-file-stub"
+                  />
+                </section>
+                <span
+                  aria-hidden="true"
+                  className="btnstyle"
+                  onClick={[Function]}
+                >
+                  Start Game
+                </span>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <footer>
+    <section
+      className="py-5 bgblack"
+      id="footer"
+    >
+      <p
+        className="py-5 text-center text-white"
+      >
+        © 2022 Wanderson Santos. All Rights Reserved.
+      </p>
+    </section>
+  </footer>,
+]
+`;
+
+exports[`Test on StartGame Component Should render with props and have 2players only 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-6 col-12"
+  >
+    <p
+      className="h1 pb-5"
+    >
+      Tic Tac Toe
+    </p>
+    <p
+      className="h3 py-3"
+      data-test="players"
+    >
+      Player One: 
+      <strong
+        className="text-danger"
+      >
+        X
+      </strong>
+    </p>
+    <p
+      className="h3 "
+      data-test="players"
+    >
+      Player Two: 
+      <strong
+        className="text-danger"
+      >
+        O
+      </strong>
+    </p>
+  </div>
+  <div
+    className="col-lg-6 col-12"
+  >
+    <section
+      className="w-100 text-center"
+    >
+      <section
+        className="w-100 px-5 mb-3"
+      >
+        <img
+          alt="Tic Tac Toe"
+          className="w-100 img-fluid rounded"
+          src="test-file-stub"
+        />
+      </section>
+      <span
+        aria-hidden="true"
+        className="btnstyle"
+        onClick={[Function]}
+      >
+        Start Game
+      </span>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`Test on TicTacToe Component Should render without props and start on StartGame page 1`] = `
+<section
+  className="w-100 bgNewlikeblue"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-lg-8 col-12 m-auto"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-6 col-12"
+          >
+            <p
+              className="h1 pb-5"
+            >
+              Tic Tac Toe
+            </p>
+            <p
+              className="h3 py-3"
+              data-test="players"
+            >
+              Player One: 
+              <strong
+                className="text-danger"
+              >
+                X
+              </strong>
+            </p>
+            <p
+              className="h3 "
+              data-test="players"
+            >
+              Player Two: 
+              <strong
+                className="text-danger"
+              >
+                O
+              </strong>
+            </p>
+          </div>
+          <div
+            className="col-lg-6 col-12"
+          >
+            <section
+              className="w-100 text-center"
+            >
+              <section
+                className="w-100 px-5 mb-3"
+              >
+                <img
+                  alt="Tic Tac Toe"
+                  className="w-100 img-fluid rounded"
+                  src="test-file-stub"
+                />
+              </section>
+              <span
+                aria-hidden="true"
+                className="btnstyle"
+                onClick={[Function]}
+              >
+                Start Game
+              </span>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

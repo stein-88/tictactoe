@@ -1,0 +1,6 @@
+{
+    "hooks": {
+        "pre-commit": "yarn checkjs",
+        "pre-push": ""
+    }
+}

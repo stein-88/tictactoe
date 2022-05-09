@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on EndGame Component Should render with props 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="col-lg-9 col-12 m-auto"
+  >
+    <section
+      className="w-100 text-center"
+    >
+      <p
+        className="h1"
+      >
+        The winner is  X
+      </p>
+      <section
+        className="w-100 px-5"
+      >
+        <img
+          alt=""
+          className="w-100 img-fluid rounded py-3 px-5"
+          data-test="champimg"
+          src="test-file-stub"
+        />
+      </section>
+    </section>
+  </div>
+</div>
+`;
