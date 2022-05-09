@@ -13,7 +13,8 @@
         "checkstyle": "stylelint \"src/**/*.scss\" --custom-syntax postcss-scss --fix",
         "checkjs": "eslint ./src/**/*.jsx --fix",
         "test": "jest --env=jsdom --config jestconfig.json",
-        "testcover": "jest --env=jsdom --config jestconfig.json --coverage"
+        "testcover": "jest --env=jsdom --config jestconfig.json --coverage",
+        "myscripts": "yarn checkjs && yarn checkstyle && yarn test -u && git add --all"
     },
     "lint-staged": {
         "src/**/*.jsx": [
