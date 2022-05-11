@@ -14,7 +14,8 @@
         "checkjs": "eslint ./src/**/*.jsx --fix",
         "test": "jest --env=jsdom --config jestconfig.json",
         "testcover": "jest --env=jsdom --config jestconfig.json --coverage",
-        "myscripts": "yarn checkjs && yarn checkstyle && yarn test -u && git add --all"
+        "myscripts": "yarn checkjs && yarn checkstyle && yarn test -u && git add --all",
+        "test:watch": "yarn test --watch"
     },
     "lint-staged": {
         "src/**/*.jsx": [
@@ -61,6 +62,7 @@
         "rxjs": "^6.6.3",
         "stylelint": "^14.8.1",
         "stylelint-config-standard": "^25.0.0",
+        "testing-library": "^0.0.2",
         "uuid": "^8.3.2"
     },
     "devDependencies": {
@@ -81,6 +83,8 @@
         "favicons": "6.2.2",
         "favicons-webpack-plugin": "5.0.2",
         "html-webpack-plugin": "5.5.0",
+        "husky": "3.0.9",
+        "lint-staged": "^9.4.2",
         "mini-css-extract-plugin": "^2.6.0",
         "node-sass": "4.14.0",
         "path": "0.12.7",
@@ -96,8 +100,6 @@
         "webpack-assets-manifest": "5.0.6",
         "webpack-cli": "4.9.1",
         "webpack-dev-server": "^4.5.0",
-        "webpack-merge": "5.8.0",
-        "lint-staged": "^9.4.2",
-        "husky": "3.0.9"
+        "webpack-merge": "5.8.0"
     }
 }

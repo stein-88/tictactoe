@@ -31,7 +31,7 @@ const StartGame = ({ changeToPage }) => {
 					<section className="w-100 px-5 mb-3">
 						<img className="w-100 img-fluid rounded" src={virus} alt={titulo} />
 					</section>
-					<Btn text={btntitle} onClick={() => changeToPage(2)} />
+					<Btn text={btntitle} onClick={() => changeToPage()} />
 				</section>
 			</div>
 		</div>

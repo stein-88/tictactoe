@@ -55,6 +55,7 @@ describe('Test on Gaming Component', () => {
 		expect(jsonGaming).toMatchSnapshot()
 	})
 	test('Should have 3 noCursor', () => {
+		const mockFunc = jest.fn()
 		const compGaming = renderer.create(
 			<Gaming
 				resetGame={resetGame}
@@ -68,6 +69,10 @@ describe('Test on Gaming Component', () => {
 			/>
 		)
 		const resultFinal = compGaming.root.findAllByProps({ ['data-testrefer']: 'noCursor' })
+		const resultFim = compGaming.root.findAllByProps({ ['data-testrefer']: '' })
+		resultFinal[0].props.onClick()
+		resultFim[0].props.onClick()
+		expect(mockFunc).not.toHaveBeenCalled()
 		expect(resultFinal).toHaveLength(3)
 	})
 })

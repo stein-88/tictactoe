@@ -17,11 +17,8 @@ export const game = (state = { currentPlayer: play1, winner: null }, action) => 
 			winner: action.winner,
 		}
 	}
-	if (action.type === SELECT_CELL) {
-		return {
-			...state,
-			currentPlayer: state.currentPlayer === play1 ? play2 : play1,
-		}
+	return {
+		...state,
+		currentPlayer: state.currentPlayer === play1 ? play2 : play1,
 	}
-	return state
 }

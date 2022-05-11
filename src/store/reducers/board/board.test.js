@@ -1,5 +1,6 @@
 import { createBoard, board } from './board'
 import * as action from '../../actions/moves'
+import { TRY_AGAIN } from '@constants/config'
 
 const expectBoardState = createBoard(3)
 
@@ -29,6 +30,10 @@ describe('board', () => {
     test('board should have length 5', () => {
         const expectResult = createBoard(5)
         expect(expectResult).toHaveLength(5)
+    })
+    test('board should reset when action is TRY_AGAIN', () => {
+        const expectResult = board(expectBoardState, { type: TRY_AGAIN })
+        expect(expectResult).toEqual(expectBoardState)
     })
     test('Should match with the currentPlayer the co-ordinate', () => {
         const expectResult = board(expectBoardState, action.selectCell('X', 2, 1))

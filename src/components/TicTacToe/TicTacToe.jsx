@@ -16,18 +16,13 @@ const TicTacToe = () => {
 	const game = useSelector(selectGame)
 	const selectedPage = useSelector(selectPage)
 
-	const changeToPage = (page) => dispatch(changePage(page))
-
-	const resetGame = () => {
-		changeToPage(2)
-		return dispatch(resetBoard())
-	}
+	const changeToPage = () => dispatch(changePage())
+	const resetGame = () => dispatch(resetBoard())
 
 	const handleDispatch = (row, col) => {
 		if (!game || !game.currentPlayer) return null
 		return dispatch(selectCell(game.currentPlayer, row, col))
 	}
-
 	return (
 		<section className={`w-100 ${s.bgNewlikeblue}`}>
 			<div className="container">
@@ -40,7 +35,7 @@ const TicTacToe = () => {
 								<Gaming
 									resetGame={resetGame}
 									handleDispatch={handleDispatch}
-									currentPlayer={game.currentPlayer}
+									currentPlayer={game && game.currentPlayer}
 									board={board}
 								/>
 							)}
