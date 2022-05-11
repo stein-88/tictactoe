@@ -15,7 +15,7 @@
         "test": "jest --env=jsdom --config jestconfig.json",
         "testcover": "jest --env=jsdom --config jestconfig.json --coverage",
         "myscripts": "yarn checkjs && yarn checkstyle && yarn test -u && git add --all",
-        "test:watch": "yarn test --watch"
+        "lint:staged": "lint-staged"
     },
     "lint-staged": {
         "src/**/*.jsx": [
